@@ -1,10 +1,11 @@
 import 'package:flutter/material.dart';
-import 'package:flutter_web_aula/responsividade_row_col.dart';
+
+import 'package:flutter_web_aula/regras_layout.dart';
 
 void main() {
   runApp(MaterialApp(
     title: "Flutter web",
     debugShowCheckedModeBanner: false,
-    home: ResponsividadeRowCol(),
+    home: RegrasLayout(),
   ));
 }
